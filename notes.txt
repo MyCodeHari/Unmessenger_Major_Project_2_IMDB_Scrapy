@@ -1,0 +1,41 @@
+BUILD A PYTHON PROJECT USING SCRAPY 
+Name of the project- "IMDB_Scraper"
+
+1. step 1: 
+create a container that will act as a virtual environment and store all the required modules and packages.
+
+CMD:
+python -m venv Scrapy
+cd Scrapy
+cd Scripts
+Activate       "!activated env.!"
+
+cd..           "!step back!"
+
+step2:
+Installation:
+Since we are using Scrapy framework we will be installing Scrapy libraries and modules.
+
+CMD:
+pip install Scrapy
+
+Start the project CMD:
+Scrapy startproject IMDB_Scraper
+
+Check response CMD:
+Scrapy Shell
+fetch("URL")
+response
+
+
+Get the Data CMD:
+assign the data into a variable
+
+
+JSON:
+import jason
+get the data, check the count 
+
+Scrape data CMD:
+scrapy crawl IMDB_spider
+scrapy crawl IMDB_spider -O result.json/csv
